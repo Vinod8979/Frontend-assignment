@@ -1,7 +1,7 @@
 {
   "name": "assignment",
   "version": "0.1.0",
-  "homepage": "https://github.com/Vinod8979/Frontend-assignment.git",
+  "homepage": "https://vinod8979.github.io/Frontend-assignment/",
   "private": true,
   "dependencies": {
     "chart.js": "^4.4.7",
