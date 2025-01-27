@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Vinod8979/Frontend-assignment.git/static/css/main.789023dd.css",
-    "main.js": "/Vinod8979/Frontend-assignment.git/static/js/main.c7ec338a.js",
-    "static/js/488.c38abf45.chunk.js": "/Vinod8979/Frontend-assignment.git/static/js/488.c38abf45.chunk.js",
-    "index.html": "/Vinod8979/Frontend-assignment.git/index.html",
-    "main.789023dd.css.map": "/Vinod8979/Frontend-assignment.git/static/css/main.789023dd.css.map",
-    "main.c7ec338a.js.map": "/Vinod8979/Frontend-assignment.git/static/js/main.c7ec338a.js.map",
-    "488.c38abf45.chunk.js.map": "/Vinod8979/Frontend-assignment.git/static/js/488.c38abf45.chunk.js.map"
+    "main.css": "/Frontend-assignment/static/css/main.789023dd.css",
+    "main.js": "/Frontend-assignment/static/js/main.e54c0ef2.js",
+    "static/js/488.c38abf45.chunk.js": "/Frontend-assignment/static/js/488.c38abf45.chunk.js",
+    "index.html": "/Frontend-assignment/index.html",
+    "main.789023dd.css.map": "/Frontend-assignment/static/css/main.789023dd.css.map",
+    "main.e54c0ef2.js.map": "/Frontend-assignment/static/js/main.e54c0ef2.js.map",
+    "488.c38abf45.chunk.js.map": "/Frontend-assignment/static/js/488.c38abf45.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.789023dd.css",
-    "static/js/main.c7ec338a.js"
+    "static/js/main.e54c0ef2.js"
   ]
 }
