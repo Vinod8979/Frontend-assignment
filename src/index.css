@@ -55,11 +55,12 @@ ul li:hover {
   vertical-align: middle;
 }
 
-.column {
+/* .column {
   display: flex;
   flex-direction: row;
   padding: 10px;
-}
+  
+} */
 
 .left-column, .right-column {
   background-color: aqua;
@@ -67,31 +68,12 @@ ul li:hover {
   flex: 1;
 }
 
-/* Media query for responsiveness */
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .column {
-    flex-direction: column;
-  }
-
-  ul {
-    text-align: left;
-  }
-
-  ul li {
-    display: block;
-    margin: 10px 0;
-  }
-}
-
 .column {
   display: flex;
   padding: 0px;
   background-color:#f0f0f0;
+  border-radius: 8px;
+
 }
 
 .left-column {
@@ -110,18 +92,21 @@ ul li:hover {
   background-color: white;
   padding: 10px 20px 10px 10px;
   margin-top: 15px;
+  border-radius: 8px;
 }
 .greet {
   flex: 1;
   padding: 30px 20px 30px 20px;
   margin: 20px;
   background-color: white;
+  border-radius: 8px;
 }
  .wallet {
   flex: 1;
   padding: 10px 20px 10px 20px;
   margin: 20px;
   background-color: white;
+  border-radius: 8px;
 }
 .wallet-text {
   display: inline;
@@ -141,6 +126,7 @@ ul li:hover {
   margin: 20px;
   background-color: white;
   height: 67vh;
+  border-radius: 8px;
 }
 .actions1 {
   flex: 1;
@@ -173,32 +159,20 @@ ul li:hover {
   border-radius: 10px;
 }
 
-.section1 {
+.section1, .section2, .section3 {
   display: inline-block;
   border: 2px solid purple;
   padding: 10px 20px 10px 20px;
   margin: 10px;
-}
-
-.section2 {
-  display: inline-block;
-  border: 2px solid purple;
-  padding: 10px 20px 10px 20px;
-  margin: 10px;
-}
-.section3 {
-  display: inline-block;
-  border: 2px solid purple;
-  padding: 10px 20px 10px 20px;
-  margin: 10px;
+  border-radius: 8px;
 }
 .dropdown {
-  padding: 5px 5px 5px 5px;
-  margin: 5px;
+  padding: 10px;
+  margin: 0px;
 }
 .dropdown1 {
   display: inline-table;
-  margin: 10px;
+  margin-bottom: 5px
 }
 
 .dropdown2 {
@@ -208,7 +182,6 @@ ul li:hover {
 }
 .dropdown3 {
   display: inline-block;
-
 }
 .date {
   display: inline-block;
@@ -218,8 +191,11 @@ ul li:hover {
   display: block;
   background-color: white;
   border: solid color(purple purple purple purple);
-  padding: 10px;
+  padding: 5px 10px 5px 10px;
   margin: 10px; 
+  border-radius: 8px;
+  justify-content: space-between; 
+  align-items: flex-start;
 }
 .Total-Orders {
   display: inline-block;
@@ -257,14 +233,14 @@ ul li:hover {
 }
 .order-icon {
   padding-left: 120px;
+  display: inline-block;
+
 }
 
 .order-text {
   padding-top: 10px;
 }
-.order-icon {
-  display: inline-block;
-}
+
 .underline {
   text-decoration: underline;
 }
@@ -298,6 +274,7 @@ ul li:hover {
 .chart-header {
   display: flex;
   justify-content: flex-start; 
+  
 }
 .charts-section {
   display: flex; 
@@ -377,3 +354,23 @@ ul li:hover {
   font-weight: 500;
   color: #333;
  }
+ /* Media query for responsiveness */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .column {
+    flex-direction: column;
+  }
+
+  ul {
+    text-align: left;
+  }
+
+  ul li {
+    display: block;
+    margin: 10px 0;
+  }
+}
